@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>DisasterAI - Emergency Detection System</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+
+		<style>
+			.reveal section img {
+				border: none;
+				box-shadow: none;
+				background: none;
+			}
+			.custom-list {
+				list-style-type: none;
+				padding-left: 0;
+			}
+			.custom-list li {
+				margin: 15px 0;
+				font-size: 0.9em;
+			}
+			.tech-stack {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				margin-top: 20px;
+			}
+			.tech-item {
+				text-align: center;
+				padding: 10px;
+			}
+			.highlight {
+				color: #42affa;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Title Slide -->
+				<section>
+					<h1>DisasterAI</h1>
+					<h3>Emergency Detection System</h3>
+					<p>AI-Powered Disaster Response Platform</p>
+				</section>
+
+				<!-- Problem Statement -->
+				<section>
+					<h2>The Challenge</h2>
+					<ul class="custom-list">
+						<li>🕒 Delayed disaster detection and response</li>
+						<li>📊 Limited real-time monitoring capabilities</li>
+						<li>🎯 Need for accurate threat assessment</li>
+						<li>🚨 Critical response time in emergencies</li>
+					</ul>
+				</section>
+
+				<!-- Solution Overview -->
+				<section>
+					<h2>Our Solution</h2>
+					<p>An AI-powered system that:</p>
+					<ul class="custom-list">
+						<li>🔍 Detects disasters in real-time</li>
+						<li>📍 Provides location-based risk assessment</li>
+						<li>📱 Offers immediate access to emergency services</li>
+						<li>🛡️ Delivers AI-driven safety guidance</li>
+					</ul>
+				</section>
+
+				<!-- Key Features -->
+				<section>
+					<section>
+						<h2>Key Features</h2>
+						<div class="tech-stack">
+							<div class="tech-item">
+								<h3>🔍</h3>
+								<p>Real-time Detection</p>
+							</div>
+							<div class="tech-item">
+								<h3>📍</h3>
+								<p>Location Services</p>
+							</div>
+							<div class="tech-item">
+								<h3>🚨</h3>
+								<p>Emergency Contacts</p>
+							</div>
+							<div class="tech-item">
+								<h3>📋</h3>
+								<p>Safety Guidance</p>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<!-- AI Capabilities -->
+				<section>
+					<h2>AI Capabilities</h2>
+					<ul class="custom-list">
+						<li>🏢 Collapsed Buildings Detection</li>
+						<li>🔥 Fire Incident Recognition</li>
+						<li>💧 Flood Area Identification</li>
+						<li>🚗 Traffic Incident Analysis</li>
+					</ul>
+				</section>
+
+				<!-- Model Architecture -->
+				<section>
+					<h2>AI Model Architecture</h2>
+					<ul class="custom-list">
+						<li>🔄 ResNet50 with Transfer Learning</li>
+						<li>📊 6,432 Training Images</li>
+						<li>🎯 5 Disaster Classes</li>
+						<li>⚙️ Optimized Hyperparameters:
+							<ul>
+								<li>Batch Size: 16</li>
+								<li>Learning Rate: 0.0005</li>
+								<li>Epochs: 20 max</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<!-- Training Process -->
+				<section>
+					<h2>Training Process</h2>
+					<div style="display: flex; justify-content: space-around;">
+						<div style="text-align: left; width: 45%;">
+							<h3>Early Phase (1-5)</h3>
+							<ul>
+								<li>Higher loss values</li>
+								<li>40-60% accuracy</li>
+								<li>Rapid improvement</li>
+							</ul>
+						</div>
+						<div style="text-align: left; width: 45%;">
+							<h3>Later Phase (13-20)</h3>
+							<ul>
+								<li>Fine-tuning</li>
+								<li>85-90% accuracy</li>
+								<li>Stabilized loss</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<!-- Model Evaluation -->
+				<section>
+					<h2>Model Evaluation</h2>
+					<div style="display: flex; justify-content: space-around;">
+						<div style="width: 50%;">
+							<img src="assets/confusion_matrix.png" alt="Confusion Matrix" style="width: 100%; height: auto;">
+						</div>
+						<div style="width: 45%; text-align: left;">
+							<h3>Analysis</h3>
+							<ul>
+								<li>Strong diagonal pattern indicates good classification</li>
+								<li>Minimal false positives</li>
+								<li>High accuracy across all disaster types</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<!-- Current Performance -->
+				<section>
+					<h2>Current Performance</h2>
+					<div style="text-align: center;">
+						<div style="margin: 20px;">
+							<h3>Latest Metrics</h3>
+							<ul class="custom-list">
+								<li>🎯 Training Accuracy: 76.92%</li>
+								<li>✅ Validation Accuracy: 84.77%</li>
+								<li>📉 Training Loss: 0.652</li>
+								<li>📊 Validation Loss: 0.4295</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<!-- Model Monitoring -->
+				<section>
+					<h2>Training Monitoring</h2>
+					<div style="display: flex; justify-content: space-around;">
+						<div style="text-align: left; width: 45%;">
+							<h3>Tools</h3>
+							<ul>
+								<li>Real-time progress tracking</li>
+								<li>Metric visualization</li>
+								<li>Early stopping detection</li>
+							</ul>
+						</div>
+						<div style="text-align: left; width: 45%;">
+							<h3>Metrics Tracked</h3>
+							<ul>
+								<li>Training/Validation Loss</li>
+								<li>Accuracy per epoch</li>
+								<li>Learning rate changes</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<!-- Expected Results -->
+				<section>
+					<h2>Expected Results</h2>
+					<ul class="custom-list">
+						<li>🎯 Target Accuracy: 85-90%</li>
+						<li>⚡ Inference Time: ~0.1s per image</li>
+						<li>💾 Model Size: ~100MB</li>
+						<li>📈 Continuous Improvement through:
+							<ul>
+								<li>Data augmentation</li>
+								<li>Hyperparameter tuning</li>
+								<li>Model architecture updates</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<!-- Technology Stack -->
+				<section>
+					<h2>Technology Stack</h2>
+					<div class="tech-stack">
+						<div class="tech-item">
+							<h3>Frontend</h3>
+							<p>React</p>
+							<p>Material-UI</p>
+						</div>
+						<div class="tech-item">
+							<h3>Backend</h3>
+							<p>Flask</p>
+							<p>PyTorch</p>
+						</div>
+						<div class="tech-item">
+							<h3>AI Model</h3>
+							<p>Custom CNN</p>
+							<p>PyTorch Based</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- Architecture -->
+				<section>
+					<h2>System Architecture</h2>
+					<pre><code class="language-text">
+Frontend (React)
+    ↕️
+Backend (Flask)
+    ↕️
+AI Model (PyTorch)
+    ↕️
+Data Processing
+					</code></pre>
+				</section>
+
+				<!-- Future Roadmap -->
+				<section>
+					<h2>Future Roadmap</h2>
+					<ul class="custom-list">
+						<li>🌍 Global scaling</li>
+						<li>🤖 Enhanced AI capabilities</li>
+						<li>📱 Mobile app development</li>
+						<li>🔄 Real-time updates</li>
+					</ul>
+				</section>
+
+				<!-- Thank You -->
+				<section>
+					<h1>Thank You!</h1>
+					<p>DisasterAI - Making Emergency Response Smarter</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				controls: true,
+				progress: true,
+				center: true,
+				transition: 'slide'
+			});
+		</script>
+	</body>
+</html>
