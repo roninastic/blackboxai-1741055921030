@@ -1,0 +1,14 @@
+{
+    "data_dir": ".",
+    "num_epochs": 5,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "train_split": 0.7,
+    "val_split": 0.15,
+    "early_stopping_patience": 2,
+    "checkpoint_dir": "checkpoints",
+    "log_dir": "logs",
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 1,
+    "weight_decay": 0.0
+}
