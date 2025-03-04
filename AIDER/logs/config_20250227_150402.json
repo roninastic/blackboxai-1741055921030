@@ -1,0 +1,11 @@
+{
+    "data_dir": ".",
+    "num_epochs": 30,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "train_split": 0.7,
+    "val_split": 0.15,
+    "early_stopping_patience": 7,
+    "checkpoint_dir": "checkpoints",
+    "log_dir": "logs"
+}
