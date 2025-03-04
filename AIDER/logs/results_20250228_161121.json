@@ -1,0 +1,12 @@
+{
+    "best_val_accuracy": 88.39378238341969,
+    "test_accuracy": 88.9119170984456,
+    "training_time": 10149.915849208832,
+    "class_mapping": {
+        "collapsed_building": 0,
+        "fire": 1,
+        "flooded_areas": 2,
+        "normal": 3,
+        "traffic_incident": 4
+    }
+}
