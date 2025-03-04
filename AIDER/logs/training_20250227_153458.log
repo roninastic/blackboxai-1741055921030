@@ -1,0 +1,15 @@
+2025-02-27 15:34:58,711 - INFO - Using device: cpu
+2025-02-27 15:34:58,712 - INFO - Creating data loaders...
+2025-02-27 15:34:58,734 - INFO - Number of classes: 5
+2025-02-27 15:34:58,734 - INFO - Class mapping: {'collapsed_building': 0, 'fire': 1, 'flooded_areas': 2, 'normal': 3, 'traffic_incident': 4}
+2025-02-27 15:34:58,735 - INFO - Initializing model...
+2025-02-27 15:34:58,944 - INFO - Starting training...
+2025-02-27 15:38:27,993 - INFO - Epoch [1/5] - Time: 209.05s - Train Loss: 0.8832 - Train Acc: 69.88% - Val Loss: 0.8647 - Val Acc: 64.56%
+2025-02-27 15:41:52,563 - INFO - Epoch [2/5] - Time: 204.20s - Train Loss: 0.6954 - Train Acc: 75.10% - Val Loss: 1.0791 - Val Acc: 67.98%
+2025-02-27 15:45:46,221 - INFO - Epoch [3/5] - Time: 233.32s - Train Loss: 0.6183 - Train Acc: 76.68% - Val Loss: 0.8008 - Val Acc: 71.92%
+2025-02-27 15:49:03,786 - INFO - Epoch [4/5] - Time: 197.25s - Train Loss: 0.5576 - Train Acc: 79.25% - Val Loss: 0.5531 - Val Acc: 81.45%
+2025-02-27 15:52:20,324 - INFO - Epoch [5/5] - Time: 196.23s - Train Loss: 0.5102 - Train Acc: 81.83% - Val Loss: 0.3898 - Val Acc: 84.87%
+2025-02-27 15:52:20,634 - INFO - Training completed in 1041.69 seconds
+2025-02-27 15:52:20,634 - INFO - Evaluating on test set...
+2025-02-27 15:52:38,429 - INFO - Test Loss: 0.3774 - Test Accuracy: 85.18%
+2025-02-27 15:52:38,430 - INFO - Results saved to logs\results_20250227_155238.json
