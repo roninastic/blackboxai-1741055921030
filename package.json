@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+    "babel-loader": "^10.0.0",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
