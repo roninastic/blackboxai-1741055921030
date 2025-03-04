@@ -1,0 +1,20 @@
+2025-02-28 13:20:41,329 - INFO - Using device: cpu
+2025-02-28 13:20:41,329 - INFO - Creating data loaders with enhanced color processing...
+2025-02-28 13:20:41,349 - INFO - Number of classes: 5
+2025-02-28 13:20:41,349 - INFO - Class mapping: {'collapsed_building': 0, 'fire': 1, 'flooded_areas': 2, 'normal': 3, 'traffic_incident': 4}
+2025-02-28 13:20:41,349 - INFO - Initializing enhanced model with color network...
+2025-02-28 13:20:41,725 - INFO - Starting training with enhanced color features...
+2025-02-28 13:33:53,660 - INFO - Epoch [1/10] - Time: 0:13:11 - ETA: 1:58:47 - Train Loss: 0.8126 - Train Acc: 71.70% - Val Loss: 0.5144 - Val Acc: 81.87%
+2025-02-28 13:48:17,343 - INFO - Epoch [2/10] - Time: 0:14:23 - ETA: 1:50:19 - Train Loss: 0.6611 - Train Acc: 75.77% - Val Loss: 0.6535 - Val Acc: 77.51%
+2025-02-28 14:02:51,215 - INFO - Epoch [3/10] - Time: 0:14:33 - ETA: 1:38:20 - Train Loss: 0.6436 - Train Acc: 77.01% - Val Loss: 0.5398 - Val Acc: 80.83%
+2025-02-28 14:17:32,300 - INFO - Epoch [4/10] - Time: 0:14:40 - ETA: 1:25:14 - Train Loss: 0.6109 - Train Acc: 78.72% - Val Loss: 0.4985 - Val Acc: 80.62%
+2025-02-28 14:32:29,797 - INFO - Epoch [5/10] - Time: 0:14:57 - ETA: 1:11:46 - Train Loss: 0.5305 - Train Acc: 80.61% - Val Loss: 0.6021 - Val Acc: 82.18%
+2025-02-28 14:49:16,151 - INFO - Epoch [6/10] - Time: 0:16:45 - ETA: 0:59:01 - Train Loss: 0.5376 - Train Acc: 80.43% - Val Loss: 0.5037 - Val Acc: 85.49%
+2025-02-28 15:08:46,013 - INFO - Epoch [7/10] - Time: 0:19:29 - ETA: 0:46:17 - Train Loss: 0.5047 - Train Acc: 81.61% - Val Loss: 0.5531 - Val Acc: 82.28%
+2025-02-28 15:30:05,801 - INFO - Epoch [8/10] - Time: 0:21:19 - ETA: 0:32:20 - Train Loss: 0.4834 - Train Acc: 83.19% - Val Loss: 0.3568 - Val Acc: 88.08%
+2025-02-28 15:50:06,331 - INFO - Epoch [9/10] - Time: 0:19:59 - ETA: 0:16:35 - Train Loss: 0.4751 - Train Acc: 83.41% - Val Loss: 0.3743 - Val Acc: 87.77%
+2025-02-28 16:09:50,987 - INFO - Epoch [10/10] - Time: 0:19:44 - ETA: 0:00:00 - Train Loss: 0.4426 - Train Acc: 84.45% - Val Loss: 0.3377 - Val Acc: 88.39%
+2025-02-28 16:09:51,642 - INFO - Training completed in 2:49:09
+2025-02-28 16:09:51,643 - INFO - Evaluating enhanced model on test set...
+2025-02-28 16:11:21,378 - INFO - Test Loss: 0.3020 - Test Accuracy: 88.91%
+2025-02-28 16:11:21,380 - INFO - Results saved to logs\results_20250228_161121.json
